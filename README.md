@@ -27,25 +27,25 @@ Source code of the samples for "Become a super user with IntelliJ" talk
 |Switch Production <-> Test Code|CMD + SHIFT + T||CTRL + SHIFT + T
 |Go to Next Error|F2 / SHIFT + F2||F2 / SHIFT + F2
 | **Text Editing**
-|Syntax aware selection - Incremental selection|ALT + UP/DOWN|CMD + W/SHIFT+CMD+W
-|Duplicate line|CMD + D
-|Delete line|CMD + DELETE|CMD + Y
-|Move line|ALT + SHIFT + UP/DOWN
-|Move statement|CMD + SHIFT + UP/DOWN
-|Comment line|CMD + /
-|Reformat Code|CMD + ALT + L
-|Optimize Imports|CMD + ALT + O
-|Multiline cursor|ALT + ALT(keep pressing) + UP/DOWN
-|Multiple cursors|ALT + SHIFT + CLICK
-|Surround With (try/catch, braces, ...)|CMD + ALT + T
+|Syntax aware selection - Incremental selection|ALT + UP/DOWN|CMD + W/SHIFT+CMD+W|CTRL + W / CTRL + SHIFT + W
+|Duplicate line|CMD + D||CTRL + D
+|Delete line|CMD + DELETE|CMD + Y| CTRL + Y
+|Move line|ALT + SHIFT + UP/DOWN||ALT + SHIFT + UP/DOWN
+|Move statement|CMD + SHIFT + UP/DOWN||CTRL + SHIFT + UP/DOWN
+|Comment line|CMD + /||CTRL + /
+|Reformat Code|CMD + ALT + L||CTRL + ALT + L
+|Optimize Imports|CMD + ALT + O||CTRL + ALT + O
+|Multiline cursor|ALT + ALT(keep pressing) + UP/DOWN||CTRL + CTRL(keep pressing) + UP/DOWN
+|Multiple cursors|ALT + SHIFT + CLICK||ALT + CLICK
+|Surround With (try/catch, braces, ...)|CMD + ALT + T||CTRL + ALT + T
 | **Code Organization**
-|Reformat code|CMD + ALT + L
-|Organize imports|CTRL + ALT + O
+|Reformat code|CMD + ALT + L||CTRL + ALT + L
+|Organize imports|CTRL + ALT + O|| CTRL + ALT + O
 | **Types**
 |Type of a val|CONTROL + P
-|Show parameters|CMD + SHIFT + P
-|Auto Complete|CONTROL + SPACE
-|Smart Auto Complete|CONTROL + SHIFT + SPACE
+|Show parameters|CMD + SHIFT + P||CTRL + P
+|Auto Complete|CONTROL + SPACE||CTRL + SPACE
+|Smart Auto Complete|CONTROL + SHIFT + SPACE ||CTRL + SHIFT + SPACE
 | **Scala Specific**
 |See implicit conversion|CONTROL + Q
 |See implicit parameter|CMD + SHIFT + P
